@@ -35,7 +35,7 @@ body {
 }
 
 section {
-    min-height: 65vh;
+    min-height: 100vh;
     padding: 7rem 9% 2rem;
 }
 
@@ -575,6 +575,10 @@ transition: .5s ease;
 
     .home-content {
         margin-bottom: 3rem;
+    }
+
+    .section {
+        min-height: 65vh;
     }
 
     #menu-icon {

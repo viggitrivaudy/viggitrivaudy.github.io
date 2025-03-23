@@ -522,14 +522,20 @@ transition: .5s ease;
         text-align: center;
     }
 
+    section {
+        min-height: 65vh;
+    }
+
     .home-content {
         margin-right: 0;
         order: 2;
         padding-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .home-image img {
-        width: 50%;
+        width: 40%;
+        margin-top: 7rem;
     }
 
     .about {
@@ -538,7 +544,7 @@ transition: .5s ease;
     }
 
     .about-img img {
-        width: 50%;
+        width: 40%;
         margin: 0 auto;
     }
 
@@ -575,6 +581,16 @@ transition: .5s ease;
 
     .home-content {
         margin-bottom: 3rem;
+    }
+
+    .home-image img {
+        width:50%;
+        margin-top: 2rem;
+    }
+
+    .about-img img {
+        width: 50%;
+        margin: 0 auto;
     }
 
     section {

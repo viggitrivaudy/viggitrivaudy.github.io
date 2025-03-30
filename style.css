@@ -132,6 +132,59 @@ span {
     border-radius: 10%;
 }
 
+/* Image Service */
+.services .services-box .gads{
+    width: 50px;
+}
+
+.services .services-box .metaads{
+    width: 75px;
+}
+
+.services .services-box .ga4{
+    width: 88px;
+}
+
+.services .services-box .gtm{
+    width: 50px;
+}
+
+.services .services-box .looker{
+    width: 50px;
+}
+
+.services .services-box .html_css{
+    width: 50px;
+}
+
+.services .services-box .unbounce{
+    width: 50px;
+}
+
+.services .services-box .semrush{
+    width: 50px;
+}
+
+.services .services-box .ahrefs{
+    width: 120px;
+}
+
+.services .services-box .premiere_pro{
+    width: 50px;
+}
+
+.services .services-box .mailchimp{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.services .services-box .onesignal{
+    width: 50px;
+}
+
+.services .services-box .photoshop{
+    width: 50px;
+}
 
 @keyframes floatImage {
     0% {
@@ -304,13 +357,13 @@ transition: .5s ease;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     padding: 0 4rem;
     transform: translateY(100%);
     transition: .5s ease;
@@ -321,7 +374,7 @@ transition: .5s ease;
 }
 
 .portfolio-layer h4 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .portfolio-layer p {
@@ -333,14 +386,14 @@ transition: .5s ease;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     background: var(--text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--snd-bf-color);
 }
 

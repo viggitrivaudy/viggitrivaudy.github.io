@@ -133,7 +133,7 @@ span {
 }
 
 /* Image Service */
-.services .services-box .gads{
+/* .services .services-box .gads{
     width: 50px;
 }
 
@@ -184,7 +184,7 @@ span {
 
 .services .services-box .photoshop{
     width: 50px;
-}
+} */
 
 @keyframes floatImage {
     0% {
@@ -285,17 +285,26 @@ transition: .5s ease;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .services-container .services-box {
     flex: 1 1 30rem;
     background: var(--snd-bf-color);
-    padding: 3rem 2rem 4rem;
+    padding: 3rem 2rem 3rem;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    position: relative;
+    display: flex;
 }
+
+.services-container .services-box img {
+    width: 50px;
+   
+}
+
 
 .services-container .services-box:hover {
     border-color: var(--main-color);
@@ -604,10 +613,11 @@ transition: .5s ease;
         margin: 0 auto;
     }
 
-    .services-container {
-        flex-direction: column;
+    /* .services-container {
+        flex-direction: flex;
         align-items: center;
-    }
+    } */
+
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
@@ -661,9 +671,13 @@ transition: .5s ease;
         margin: 0 auto;
     }
 
-    .services-container {
-        flex-direction: column;
+    /* .services-container .services-box {
+        flex-direction: grid;
         align-items: center;
+    } */
+
+    .services-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .portfolio-container {
@@ -740,6 +754,30 @@ transition: .5s ease;
     }
 
     .portfolio-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2, 1fr;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada tampilan mobile */
+    }
+
+    .services-container .services-box{
+        display: flex;
+        flex-direction: row; /* Arahkan elemen secara vertikal */
+        justify-content: center; /* Rata tengah secara vertikal */
+        align-items: center; /* Rata tengah secara horizontal */
+        position: relative;
+        width: 100%; /* Buat lebar penuh pada setiap box */
+        text-align: center; /* Agar teks berada di tengah */
     }
 }
+
+ /* @media (max-width: 604px) {
+    .services-container {
+        width: 50%;
+        position: flex;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    
+ } */

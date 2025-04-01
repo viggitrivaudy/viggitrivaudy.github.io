@@ -185,6 +185,14 @@ span {
 .services .services-box .photoshop{
     width: 50px;
 } */
+ 
+.services .services-box .mailchimp{
+    border-radius: 50%;
+}
+
+.services .services-box .ahrefs{
+    width: 70px;
+}
 
 @keyframes floatImage {
     0% {
@@ -280,12 +288,13 @@ transition: .5s ease;
 }
 
 .services-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 1rem;
 }
 
 .services-container .services-box {
@@ -298,11 +307,15 @@ transition: .5s ease;
     transition: .5s ease;
     position: relative;
     display: flex;
+
+    flex-direction: row; /* Arahkan elemen secara vertikal */
+    justify-content: center; /* Rata tengah secara vertikal */
+    align-items: center; /* Rata tengah secara horizontal */
 }
 
 .services-container .services-box img {
     width: 50px;
-   
+   margin-right: 1rem;
 }
 
 
@@ -317,7 +330,7 @@ transition: .5s ease;
 }
 
 .services-box h3 {
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 .services-box p {
@@ -613,13 +626,22 @@ transition: .5s ease;
         margin: 0 auto;
     }
 
-    /* .services-container {
-        flex-direction: flex;
-        align-items: center;
-    } */
+    .services-container .services-box{
+        display: flex;
+        flex-direction: row; /* Arahkan elemen secara vertikal */
+        justify-content: center; /* Rata tengah secara vertikal */
+        align-items: center; /* Rata tengah secara horizontal */
+        position: relative;
+        width: 100%;
+        text-align: center; /* Agar teks berada di tengah */
+    }
 
 
     .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-container{
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -671,10 +693,15 @@ transition: .5s ease;
         margin: 0 auto;
     }
 
-    /* .services-container .services-box {
-        flex-direction: grid;
-        align-items: center;
-    } */
+    .services-container .services-box{
+        display: flex;
+        flex-direction: row; /* Arahkan elemen secara vertikal */
+        justify-content: center; /* Rata tengah secara vertikal */
+        align-items: center; /* Rata tengah secara horizontal */
+        position: relative;
+        width: 100%;
+        text-align: center; /* Agar teks berada di tengah */
+    }
 
     .services-container{
         grid-template-columns: repeat(2, 1fr);
@@ -757,8 +784,12 @@ transition: .5s ease;
         grid-template-columns: 2, 1fr;
     }
 
+    .portfolio-container .portfolio-box h4 {
+        font-size: 10px;
+    }
+
     .services-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada tampilan mobile */
+        grid-template-columns: 2, 1fr; /* 2 kolom pada tampilan mobile */
     }
 
     .services-container .services-box{
@@ -767,17 +798,15 @@ transition: .5s ease;
         justify-content: center; /* Rata tengah secara vertikal */
         align-items: center; /* Rata tengah secara horizontal */
         position: relative;
-        width: 100%; /* Buat lebar penuh pada setiap box */
+        width: 100%;
         text-align: center; /* Agar teks berada di tengah */
+    }
+    .services-container .services-box h3{
+        font-size: 15px;
+    }
+    
+    .services-container .services-box img{
+        width: 20%;
     }
 }
 
- /* @media (max-width: 604px) {
-    .services-container {
-        width: 50%;
-        position: flex;
-        grid-template-columns: repeat(2, 1fr) !important;
-    }
-
-    
- } */

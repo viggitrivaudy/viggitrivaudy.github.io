@@ -343,7 +343,7 @@ transition: .5s ease;
 }
 
 .portfolio h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
     text-align: center;
 }
@@ -396,7 +396,8 @@ transition: .5s ease;
 }
 
 .portfolio-layer h4 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    margin-bottom:8px;
 }
 
 .portfolio-layer p {
@@ -408,14 +409,14 @@ transition: .5s ease;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     background: var(--text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--snd-bf-color);
 }
 
@@ -793,7 +794,7 @@ transition: .5s ease;
     }
 
     .services-container .services-box{
-        display: flex;
+        display: grid;
         flex-direction: row; /* Arahkan elemen secara vertikal */
         justify-content: center; /* Rata tengah secara vertikal */
         align-items: center; /* Rata tengah secara horizontal */
@@ -810,3 +811,8 @@ transition: .5s ease;
     }
 }
 
+@media (max-width: 531px) {
+    .services-container .services-box h3{
+        font-size: 12px;
+    }
+}

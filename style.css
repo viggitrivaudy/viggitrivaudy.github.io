@@ -600,6 +600,7 @@ transition: .5s ease;
     .home {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
     section {
@@ -616,6 +617,7 @@ transition: .5s ease;
     .home-image img {
         width: 40%;
         margin-top: 7rem;
+        align-items: center;
     }
 
     .about {
@@ -667,6 +669,7 @@ transition: .5s ease;
     .home {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
     section {
@@ -814,3 +817,63 @@ transition: .5s ease;
         font-size: 12px;
     }
 }
+
+.port_dll {
+
+}
+
+.tab-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .tab-btn {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tab-btn.active {
+    color: white;
+    border-bottom: 3px solid #6c5ce7;
+  }
+  
+  .tab-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    /* background: #1e1e2f; */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: grid;
+  }
+
+  .card img{
+    width: 250px;
+  }
+  
+  .hidden {
+    display: none;
+  }

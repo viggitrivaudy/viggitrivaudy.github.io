@@ -1,0 +1,168 @@
+=============== About Me ===============
+I'm a Web Designer & Developer
+
+I'm a New York, USA-based product designer with a focus on web design, UX/UI design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.<br><br>With 07 years experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success!
+
+=============== My Resume ===============
+.education
+----------------
+Diploma In Graphic Design
+New York - University
+2012-2013
+
+Diploma In Web Design
+United States - University
+2014-2015
+
+Diploma In UI/UX Design
+Canada - University
+2015-2016
+
+Masters In Web Design
+New York - University
+2017-2018
+
+.experience
+----------------
+Graphic Designer
+Bluebase Designs
+2018-2019
+
+Front-End Developer
+Larsen & Toubro
+2018-2022
+
+Front-End Developer
+Envato Market
+2022-Present
+
+.personal-skills
+----------------
+Front-End Developer
+
+HTML
+Advanced
+
+CSS
+Advanced
+
+JavaScript
+Advanced
+
+React
+Intermediate
+
+Bootstrap
+Basic
+
+JQuery
+Basic
+
+Back-End Developer
+
+PHP
+Intermediate
+
+Python
+Basic
+
+MySQL
+Intermediate
+
+Node JS
+Basic
+
+Firebase
+Intermediate
+
+=============== Services ===============
+Web Design
+
+With 07 years experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success!
+
+Design & build a custom websites.
+Responsive Website Design.
+Search Engine Optimization (SEO).
+Website Hosting.
+Website Maintenance and Support.
+
+Graphic Design
+
+Logos and branding.
+Website/blog design.
+Photoshop design.
+Presentation Design.
+Print design.
+
+UI/UX Design
+
+Conduct extensive user research.
+Create user personas.
+Design wireframes.
+Build prototype.
+User testing.
+Lorem ipsum dolor consectetur.
+Lorem ipsum dolor consectetur.
+Lorem ipsum dolor consectetur.
+Lorem ipsum dolor consectetur.
+Lorem ipsum dolor consectetur.
+
+=============== Portfolio ===============
+Web Design
+Dynamic
+
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat ipsam quod odio ad, quibusdam consectetur architecto magni tenetur vero at aspernatur possimus fuga nostrum eligendi, earum quisquam dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore earum corporis est quo praesentium beatae laudantium nisi reiciendis eius, voluptate tenetur ullam autem dignissimos, nulla minus repellat, maiores sunt.
+
+UX/UI Design
+Submarine
+
+Templates
+Seven Studio
+
+Photoshop
+Raven Studio
+
+Web Design
+Dynamic
+
+Templates
+Seven Studio
+
+UX/UI Design
+Submarine
+
+Web Design
+Grid Studio
+
+=============== Testimonials ===============
+Aria Collins
+Marketing Manager
+Hi, I’m Aria Collins and I am designer & developer who dream making the world better place by products. I am also very active for international clients.
+
+Cillian Metcalfe
+Graphic Designer
+This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away by it.
+
+Kianna Baird
+App Developer
+These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!
+
+=============== Contact Me ===============
+E-mail
+info@sue.ayers.com
+
+Whatsapp
++1 222-333-5557
+
+Messanger
+Sue.Ayers-fb123
+
+.contact-form
+Let’s work together.
+
+Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.
+
+=============== Footer ===============
+© All rights reserved by Coding Snow

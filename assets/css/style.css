@@ -83,6 +83,59 @@
 }
 
 /* ======= Light theme ======= */
+.light-theme {
+    /* ======= Changeable colors for dark/light themes ======= */
+    --color-01: hsl(var(--hue) 26% 12%); /* primary to dark */
+    --color-02: hsl(var(--hue) 26% 12%); /* white to dark */
+    --color-03: hsl(var(--hue) 45% 98%); /* dark to white */
+    --color-04: hsl(var(--hue) 9% 46%); /* light-graygray to dark-gray */
+    --color-05: hsl(var(--hue) var(--sat) var(--light)); /* dark to primary */
+ 
+    --body-color: hsl(var(--hue) 45% 98%); /* dark to white */
+ 
+    /* ======= Background colors ======= */
+    --bottom-nav-bg: hsl(var(--hue) 32% 85% / .8);
+    --card-bg: hsl(0 0% 100%);
+    --modal-backdrop-bg: hsl(var(--hue) 58% 12% / .5);
+    --footer-bg: linear-gradient(360deg, hsl(var(--hue) var(--sat) var(--light)), hsl(var(--hue) var(--sat) var(--light) / .75));
+ 
+    --scrollbar-color: hsl(varvar(--hue)9% 60%);;
+    --scrollbar-thumb: hsl(var(--hue) 9% 25%);
+    --scrollbar-thumb-hover: hsl(var(--hue) 9% 17%);
+
+    .sue-main-btn a {
+      color: hsl(0deg 0% 0%);
+   }
+
+   .portfolio-card {
+      border-color: black;
+      border: 10px;
+   }
+}
+
+.bottom-nav .menu-hide-btn {
+   box-shadow: 0 2px 4px hsl(0, 0%, 1%, .25);
+ }
+
+ .pro-card,
+ .skill-card,
+ .portfolio-card,
+ .contact-form-body{
+   box-shadow:  10px 10px 8px hsl(0, 0%, 1%, .05);
+ }
+
+ .contact-icon,
+ .contact-social-links li {
+   box-shadow:  0 2px 4px hsl(0, 0%, 1%, .1);
+ }
+
+ .sue-footer .copy-right a{
+   color: hsl(var(--hue) 26% 30%);
+ }
+
+ .sue-footer .copy-right a:hover{
+   color: hsl(var(--hue) 0% 0%);
+ }
 
 /* =========================================
    Reset / Normalize
@@ -243,8 +296,8 @@ body{
    left: 0;
    padding: 30px 0;
    transition: .3s ease;
-   backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
+   /* backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(10px); */
 }
 
 .sue-header .shrink{
@@ -313,8 +366,20 @@ body{
    transform: rotate(-15deg);
 }
 
-.theme-btn .moon-icon{
+/* .theme-btn .moon-icon{
    display: none;
+} */
+
+.theme-btn.active-sun-icon .moon-icon,
+.theme-btn .sun-icon{
+   opacity: 1;
+   transition: .3s;
+}
+
+.theme-btn.active-sun-icon .sun-icon,
+.theme-btn .moon-icon {
+   opacity: 0;
+   transition: .3s;
 }
 
 
@@ -1298,8 +1363,8 @@ body{
 ========================================= */
 .sue-footer {
    background: var(--footer-bg);
-   padding: 50px;
-   padding-bottom: 50px;
+   padding: 40px;
+   padding-bottom: 40px;
 }
 
 .sue-footer .sue-container .inner{
@@ -1323,6 +1388,10 @@ body{
    color: var(--color-04);
    font-size: var(--small-font-size);
    margin-top: 10px;
+}
+
+.sue-footer .copy-right a {
+   color: rgb(235, 235, 235);
 }
 
 .sue-footer .copy-right a:hover {
@@ -1490,6 +1559,7 @@ body{
    .lets-talk-icon {
       font-size: 1.6rem;
       display: block;
+      display: none;
    }
 
    .theme-btn i {

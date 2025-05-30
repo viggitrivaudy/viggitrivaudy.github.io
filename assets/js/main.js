@@ -188,13 +188,52 @@ menuShowBtn.addEventListener("click", ()=> {
 ===================================================== */
 
 // Change theme and save current theme on click the theme button.
+const themeBtn = document.querySelector(".theme-btn");
+
+themeBtn.addEventListener("click", ()=> {
+   // Change Theme Icon and Theme on Click theme button
+   themeBtn.classList.toggle("active-sun-icon");
+   document.body.classList.toggle("light-theme");
+
+   // Save Theme Icon and Theme on Click Theme Button
+   const getCurrentIcon = () => themeBtn.classList.contains("active-sun-icon") ? "sun" : "moon";
+   const getCurrentTheme = () => document.body.classList.contains("light-theme") ? "light" : "dark";
+
+   localStorage.setItem("sue-saved-icon", getCurrentIcon());
+   localStorage.setItem("sue-saved-theme", getCurrentTheme());
+});
 
 // Get saved theme icon and theme on document loaded.
+const savedIcon = localStorage.getItem("sue-saved-icon");
+const savedTheme = localStorage.getItem("sue-saved-theme");
+
+document.addEventListener("DOMContentLoaded", () => {
+   themeBtn.classList[savedIcon === "sun" ? "add" : "remove"] ("active-sun-icon");
+   document.body.classList[savedTheme === "light" ? "add" : "remove"] ("light-theme");
+})
 
 /* =====================================================
    ScrollReveal JS animations
 ===================================================== */
+ScrollReveal({ 
+   reset: true,
+   distance: '60px',
+   duration: 2500,
+   delay: 400
+});
+
+
 
 // Common reveal options to create reveal animations.
 
 // Target elements and specify options to create reveal animations.
+ScrollReveal().reveal('.avatar-img', {delay: 70, origin: 'top'});
+ScrollReveal().reveal('.avatar-info', {delay: 50, origin: 'top'});
+ScrollReveal().reveal('.home-social, .home-scroll-btn',  {delay: 50, origin: 'bottom'});
+ScrollReveal().reveal('.about-img',  {delay: 70, origin: 'top'});
+ScrollReveal().reveal('.about-info, sue-logo',  {delay: 80, origin: 'bottom'});
+ScrollReveal().reveal('.pro-card, .about-buttons',  {delay: 80, origin: 'right', interval:90});
+// ScrollReveal().reveal('',  {delay: 50, origin: 'bottom'});
+// ScrollReveal().reveal('.contact-form-body',  {delay: 50, origin: 'right'});
+ScrollReveal().reveal(' .contact-item, .contact-social-links li',  {delay: 50, origin: 'bottom', interval:90});
+ScrollReveal().reveal('.contact-info h3',  {delay: 50, origin: 'bottom', interval: 50});

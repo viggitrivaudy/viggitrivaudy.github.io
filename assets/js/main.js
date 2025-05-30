@@ -152,7 +152,7 @@ window.addEventListener("scroll", () => {
          menuShowBtn.classList.add("active");
    }
    clearTimeout(navTimeout);
-   navTimeout = setTimeout(scrollStopped, 2500);
+   navTimeout = setTimeout(scrollStopped);
    }
 });
 

@@ -1590,7 +1590,16 @@ body{
    }
 
    .sue-header {
-      padding: 20px 0;
+      padding: 16px 0;
+      margin-bottom: 10px;
+   }
+
+   .sue-logo a {
+      font-size: 1.6rem;
+   }
+
+   .lets-talk-icon {
+      display: none;
    }
 
    .header-btns {
@@ -1622,7 +1631,7 @@ body{
 
    .avatar-img {
       height: 300px;
-      /* width: 85%;
+      /* width: 90%;
       height: fit-content;
       padding-bottom: 94%; */
    }

@@ -219,7 +219,7 @@ ScrollReveal({
    reset: true,
    distance: '60px',
    duration: 2500,
-   delay: 400
+   delay: 100
 });
 
 
@@ -228,12 +228,13 @@ ScrollReveal({
 
 // Target elements and specify options to create reveal animations.
 ScrollReveal().reveal('.avatar-img', {delay: 70, origin: 'top'});
+ScrollReveal().reveal('.hire-btn-01',  {delay: 50, origin: 'left'});
 ScrollReveal().reveal('.avatar-info', {delay: 50, origin: 'top'});
 ScrollReveal().reveal('.home-social, .home-scroll-btn',  {delay: 50, origin: 'bottom'});
 ScrollReveal().reveal('.about-img',  {delay: 70, origin: 'top'});
 ScrollReveal().reveal('.about-info, sue-logo',  {delay: 80, origin: 'bottom'});
 ScrollReveal().reveal('.pro-card, .about-buttons',  {delay: 80, origin: 'right', interval:90});
 // ScrollReveal().reveal('',  {delay: 50, origin: 'bottom'});
-// ScrollReveal().reveal('.contact-form-body',  {delay: 50, origin: 'right'});
+
 ScrollReveal().reveal(' .contact-item, .contact-social-links li',  {delay: 50, origin: 'bottom', interval:90});
 ScrollReveal().reveal('.contact-info h3',  {delay: 50, origin: 'bottom', interval: 50});

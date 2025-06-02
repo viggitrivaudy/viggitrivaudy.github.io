@@ -236,5 +236,5 @@ ScrollReveal().reveal('.about-info, sue-logo',  {delay: 80, origin: 'bottom'});
 ScrollReveal().reveal('.pro-card, .about-buttons',  {delay: 80, origin: 'right', interval:90});
 // ScrollReveal().reveal('',  {delay: 50, origin: 'bottom'});
 
-ScrollReveal().reveal(' .contact-item, .contact-social-links li',  {delay: 50, origin: 'bottom', interval:90});
-ScrollReveal().reveal('.contact-info h3',  {delay: 50, origin: 'bottom', interval: 50});
+// ScrollReveal().reveal(' .contact-item, .contact-social-links li',  {delay: 50, origin: 'bottom', interval:90});
+// ScrollReveal().reveal('.contact-info h3',  {delay: 50, origin: 'bottom', interval: 50});

@@ -296,8 +296,8 @@ body{
    left: 0;
    padding: 30px 0;
    transition: .3s ease;
-   /* backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(10px); */
+   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .sue-header .shrink{
@@ -1252,12 +1252,12 @@ body{
 .contact-social-links li {
    font-size: 1.75rem;
    background: var(--card-bg);
-   width: 80px;
-   height: 80px;
+   width: 75px;
+   height: 75px;
    display: flex;
    justify-content: center;
    align-items: center;
-   border-radius: 50%;
+   border-radius: 10px;
    cursor: pointer;
 }
 
@@ -1363,8 +1363,8 @@ body{
 ========================================= */
 .sue-footer {
    background: var(--footer-bg);
-   padding: 40px;
-   padding-bottom: 40px;
+   padding: 25px;
+   /* padding-bottom: 40px; */
 }
 
 .sue-footer .sue-container .inner{
@@ -1372,7 +1372,7 @@ body{
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   row-gap: 40px;
+   row-gap: 10px;
 }
 
 .footer-menu {

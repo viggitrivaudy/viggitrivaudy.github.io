@@ -966,7 +966,7 @@ body{
 .experience .resume-line {
    background: var(--primary-color);
    width: 2px;
-   height: 250px;
+   height: 450px;
 }
 
 /* .experience img {
